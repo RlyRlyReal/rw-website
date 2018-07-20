@@ -1,0 +1,72 @@
+/***** BASE STYLES *****/
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+body{
+	font-family: 'Anton';
+	color: #131307;
+}
+
+#about, #music, #soap-box{
+	height: 600px;
+}
+
+
+
+/***** HEADER *****/
+header{
+	height: 800px;
+	background: url(../img/hero-image.jpg);
+	background-size: cover;
+}
+
+header h1{
+	padding: 50px 0 0px 5px;
+	font-family: 'permanent marker';
+	font-size: 80px;
+	color: #270722;
+}
+
+nav{
+	float: right;
+	padding: 75px 25px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+ nav ul li a{
+ 	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #270722;
+	padding-left: 50px;
+}
+
+header h2{
+	width: 65%;
+	font-size: 40px;
+	line-height: 50px;
+	color: #9c0d38;
+	padding: 0px 0 20px 25px;
+}
+
+
+/***** ABOUT *****/
+#about .full-width{
+	background-color: #cfc7d2;
+	padding: 80px 0;
+}
+
+#about h2{
+	font-size: 36px;
+	
+}
